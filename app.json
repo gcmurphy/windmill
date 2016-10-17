@@ -20,5 +20,5 @@
       "generator": "secret"
     }
   },
-  "addons": ["heroku-postgresql:standard-0"]
+  "addons": ["heroku-postgresql:hobby-dev"]
 }
