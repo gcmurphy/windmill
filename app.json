@@ -4,7 +4,7 @@
   "repository": "https://github.com/blackfist/windmill",
   "keywords": ["osquery", "tls", "sinatra", "ruby"],
   "scripts": {
-    "postdeploy": "bundle exec rake db:setup"
+    "postdeploy": "bundle exec rake db:setup db:migrate"
   },
   "env": {
     "AUTHORIZEDUSERS": {
